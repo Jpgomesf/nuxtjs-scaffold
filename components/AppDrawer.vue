@@ -4,11 +4,10 @@ const { drawerItems } = useDrawerItems();
 
 </script>
 <template>
-  <v-navigation-drawer :rail="!drawer" expand-on-hover>
+  <v-navigation-drawer :rail="!drawer">
     <v-list>
       <v-list-item prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg" subtitle="sandra_a88@gmailcom"
         title="Sandra Adams"></v-list-item>
-      <v-list-item prepend-icon="mdi-bell" title="Notifications" value="Notifications"></v-list-item>
     </v-list>
 
     <v-divider></v-divider>
