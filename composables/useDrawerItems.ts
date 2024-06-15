@@ -9,25 +9,31 @@ const allDrawerItems: IDrawerItem[] = [{
   icon: 'mdi-folder',
   title: 'My files',
   value: 'myfiles',
-  link: 'files'
+  link: '/files'
 },
 {
   icon: 'mdi-whatsapp',
   title: 'Messages',
   value: 'messages',
-  link: 'messages'
+  link: '/messages'
+},
+{
+  icon: 'mdi-calendar',
+  title: 'Calendar',
+  value: 'calendar',
+  link: '/calendar'
 },
 {
   icon: 'mdi-account-multiple',
   title: 'Users',
   value: 'users',
-  link: 'users'
+  link: '/users'
 },
 {
   icon: 'mdi-star',
   title: 'Starred',
   value: 'starred',
-  link: 'starred'
+  link: '/starred'
 },
 ]
 
