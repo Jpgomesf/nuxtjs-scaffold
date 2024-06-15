@@ -5,6 +5,7 @@ import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
+import colors from 'vuetify/util/colors'
 
 export default defineNuxtPlugin((app) => {
   const vuetify = createVuetify({
@@ -16,9 +17,9 @@ export default defineNuxtPlugin((app) => {
         light: {
           dark: false,
           colors: {
-            primary: '#1976D2',
-            secondary: '#424242',
-            accent: '#82B1FF',
+            primary: colors.deepPurple.darken4,
+            secondary: colors.indigo.lighten2,
+            accent: '#B388FF',
           }
         },
         dark: {
