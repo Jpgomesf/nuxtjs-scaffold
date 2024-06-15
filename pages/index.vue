@@ -1,5 +1,6 @@
 <template>
   <div>
-    <AppGenericCard />
+    <!-- <AppGenericCard /> -->
+    <AppDataTable />
   </div>
 </template>
